@@ -1,0 +1,57 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5),rgba(0,0,0,5)),url(bar-beverage-blur-caffeine.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: cnter;
+    background-size: cover;
+    padding: 15px;
+}
+header {
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.logo img{
+    width:70px;
+    height: 70px;
+
+    
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    margin-right: 150px;
+    font-size: 20px;
+    font-family:cursive;
+}
+a:hover{
+    color:rgb(154, 240, 17);
+    border:solid 2px #fff; 
+    border-radius: 10px;
+    font-style: italic;
+    
+}
+.content{
+    color:whitesmoke;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+ h1{
+    font-size: 100px;
+
+ }
+ .content .details{
+    font-family: monospace;
+    font-size: 900;
+    font-weight:lighter;
+
+ }
